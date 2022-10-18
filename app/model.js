@@ -397,7 +397,7 @@ var MODEL = (function(){
     </div>
   </section>`;
 
-    var _israelPage = `<section class="tour-hero">
+    var _israelContent = `<section class="tour-hero">
     <div class="israel-image">
       <div class="callout">Isreal tour package:</div>
       <div class="starting">STARTING FROM $1000</div>
@@ -466,6 +466,568 @@ var MODEL = (function(){
       <div class="button-text">BOOK NOW</div>
     </div>
   </section>`;
+    var _usaContent =`<section class="tour-hero">
+    <div class="usa-image">
+      <div class="callout">U.S.A tour package:</div>
+      <div class="starting">STARTING FROM $1500</div>
+    </div>
+  </section>
+
+  <section class="usa-tour-pics">
+    <div class="pic1"></div>
+    <div class="pic2"></div>
+    <div class="pic3"></div>
+  </section>
+
+  <section class="days">
+    <div class="day1">
+      <div class="about-title">Day #1:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day2">
+      <div class="about-title">Day #2:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day3">
+      <div class="about-title">Day #3:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="book-button">
+    <div class="button">
+      <div class="button-text">BOOK NOW</div>
+    </div>
+  </section>`;
+    var _ausContent =`<section class="tour-hero">
+    <div class="aus-image">
+      <div class="callout">Australia tour package:</div>
+      <div class="starting">STARTING FROM $1800</div>
+    </div>
+  </section>
+
+  <section class="aus-tour-pics">
+    <div class="pic1"></div>
+    <div class="pic2"></div>
+    <div class="pic3"></div>
+  </section>
+
+  <section class="days">
+    <div class="day1">
+      <div class="about-title">Day #1:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day2">
+      <div class="about-title">Day #2:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day3">
+      <div class="about-title">Day #3:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="book-button">
+    <div class="button">
+      <div class="button-text">BOOK NOW</div>
+    </div>
+  </section>`;
+    var _zealandContent =`<section class="tour-hero">
+    <div class="zealand-image">
+      <div class="callout">New Zealand tour package:</div>
+      <div class="starting">STARTING FROM $1200</div>
+    </div>
+  </section>
+
+  <section class="zealand-tour-pics">
+    <div class="pic1"></div>
+    <div class="pic2"></div>
+    <div class="pic3"></div>
+  </section>
+
+  <section class="days">
+    <div class="day1">
+      <div class="about-title">Day #1:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day2">
+      <div class="about-title">Day #2:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day3">
+      <div class="about-title">Day #3:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="book-button">
+    <div class="button">
+      <div class="button-text">BOOK NOW</div>
+    </div>
+  </section>`;
+    var _franceContent =`<section class="tour-hero">
+    <div class="france-image">
+      <div class="callout">France tour package:</div>
+      <div class="starting">STARTING FROM $2500</div>
+    </div>
+  </section>
+
+  <section class="france-tour-pics">
+    <div class="pic1"></div>
+    <div class="pic2"></div>
+    <div class="pic3"></div>
+  </section>
+
+  <section class="days">
+    <div class="day1">
+      <div class="about-title">Day #1:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day2">
+      <div class="about-title">Day #2:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day3">
+      <div class="about-title">Day #3:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="book-button">
+    <div class="button">
+      <div class="button-text">BOOK NOW</div>
+    </div>
+  </section>`;
+    var _egyptContent =`<section class="tour-hero">
+    <div class="egypt-image">
+      <div class="callout">Egypt tour package:</div>
+      <div class="starting">STARTING FROM $900</div>
+    </div>
+  </section>
+
+  <section class="egypt-tour-pics">
+    <div class="pic1"></div>
+    <div class="pic2"></div>
+    <div class="pic3"></div>
+  </section>
+
+  <section class="days">
+    <div class="day1">
+      <div class="about-title">Day #1:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day2">
+      <div class="about-title">Day #2:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day3">
+      <div class="about-title">Day #3:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="book-button">
+    <div class="button">
+      <div class="button-text">BOOK NOW</div>
+    </div>
+  </section>`;
+    var _japanContent =`<section class="tour-hero">
+    <div class="japan-image">
+      <div class="callout">Japan tour package:</div>
+      <div class="starting">STARTING FROM $1300</div>
+    </div>
+  </section>
+
+  <section class="japan-tour-pics">
+    <div class="pic1"></div>
+    <div class="pic2"></div>
+    <div class="pic3"></div>
+  </section>
+
+  <section class="days">
+    <div class="day1">
+      <div class="about-title">Day #1:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day2">
+      <div class="about-title">Day #2:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day3">
+      <div class="about-title">Day #3:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="book-button">
+    <div class="button">
+      <div class="button-text">BOOK NOW</div>
+    </div>
+  </section>`;
+    var _canadaContent =`<section class="tour-hero">
+    <div class="canada-image">
+      <div class="callout">Canada tour package:</div>
+      <div class="starting">STARTING FROM $2000</div>
+    </div>
+  </section>
+
+  <section class="canada-tour-pics">
+    <div class="pic1"></div>
+    <div class="pic2"></div>
+    <div class="pic3"></div>
+  </section>
+
+  <section class="days">
+    <div class="day1">
+      <div class="about-title">Day #1:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day2">
+      <div class="about-title">Day #2:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day3">
+      <div class="about-title">Day #3:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="book-button">
+    <div class="button">
+      <div class="button-text">BOOK NOW</div>
+    </div>
+  </section>`;
+    var _uaeContent =`<section class="tour-hero">
+    <div class="uae-image">
+      <div class="callout">U.A.E. tour package:</div>
+      <div class="starting">STARTING FROM $3000</div>
+    </div>
+  </section>
+
+  <section class="uae-tour-pics">
+    <div class="pic1"></div>
+    <div class="pic2"></div>
+    <div class="pic3"></div>
+  </section>
+
+  <section class="days">
+    <div class="day1">
+      <div class="about-title">Day #1:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day2">
+      <div class="about-title">Day #2:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+    <div class="day3">
+      <div class="about-title">Day #3:</div>
+      <div class="about-text">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+          velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="book-button">
+    <div class="button">
+      <div class="button-text">BOOK NOW</div>
+    </div>
+  </section>`;
+
+  function initListeners(){
+    $("a").click(function(e){
+        // this stores the id from the anchor tag
+        let aID = e.currentTarget.id
+        let contentID = aID + "Content";
+
+        MODEL.updateView(contentID);
+    })
+}
     
     var _updateView = function(pageName){
         console.log("model " + pageName);
@@ -477,9 +1039,11 @@ var MODEL = (function(){
         }else{
           $("#nav").addClass("dark");
         }
-    };
+
+        initListeners();
+    }
 
     return{
         updateView: _updateView,
-    };
+    }
 })();

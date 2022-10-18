@@ -523,6 +523,185 @@ nav .links a {
 }
 
 .tour-hero {
+  height: 600px;
+  width: 981px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.tour-hero .israel-image {
+  margin-top: 80px;
+  height: 413px;
+  width: 981px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tour-hero .israel-image .callout {
+  height: 390px;
+  font-size: 60px;
+  font-family: GillSans;
+  color: white;
+  padding: 15px;
+}
+.tour-hero .israel-image .starting {
+  font-size: 20px;
+  font-family: GillSans;
+  color: white;
+  text-align: right;
+}
+
+.tour-pics {
+  height: 374px;
+  width: 981px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+.tour-pics .pic1 {
+  width: 298px;
+  height: 374px;
+  background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tour-pics .pic2 {
+  width: 298px;
+  height: 374px;
+  background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tour-pics .pic3 {
+  width: 298px;
+  height: 374px;
+  background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.days {
+  height: 776px;
+  width: 981px;
+  margin: 0 auto;
+}
+.days .day1 {
+  height: 195px;
+  width: 981px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.days .day1 .about-title {
+  height: 63px;
+  width: 246px;
+  font-size: 60px;
+  font-family: GillSans;
+  border-bottom: 2px solid;
+  border-color: black;
+}
+.days .day1 .about-text {
+  height: 96px;
+  width: 981px;
+  font-size: 16px;
+  font-family: GillSans;
+  margin-top: 36px;
+}
+.days .day2 {
+  height: 195px;
+  width: 981px;
+  margin-bottom: 50px;
+}
+.days .day2 .about-title {
+  height: 63px;
+  width: 246px;
+  font-size: 60px;
+  font-family: GillSans;
+  border-bottom: 2px solid;
+  border-color: black;
+}
+.days .day2 .about-text {
+  height: 96px;
+  width: 981px;
+  font-size: 16px;
+  font-family: GillSans;
+  margin-top: 36px;
+}
+.days .day3 {
+  height: 195px;
+  width: 981px;
+  margin-bottom: 50px;
+}
+.days .day3 .about-title {
+  height: 63px;
+  width: 246px;
+  font-size: 60px;
+  font-family: GillSans;
+  border-bottom: 2px solid;
+  border-color: black;
+}
+.days .day3 .about-text {
+  height: 96px;
+  width: 981px;
+  font-size: 16px;
+  font-family: GillSans;
+  margin-top: 36px;
+}
+
+.book-button {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.book-button .button {
+  height: 40px;
+  width: 147px;
+  padding: 5px 30px;
+  background-color: #79ADDC;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.book-button .button .button-text {
+  font-size: 15px;
+  font-family: GillSans;
+  color: white;
+}
+
+.tour-hero {
   height: 400px;
   width: 981px;
   margin: 0 auto;

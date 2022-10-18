@@ -1,0 +1,171 @@
+.tour-hero{
+    height:600px;
+    width: 981px;
+    // background-color: antiquewhite;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .canada-image{
+        margin-top: 80px;
+        height:413px;
+        width: 981px;
+        background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../images/tour/tour-08.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        .callout{
+            height: 390px;
+            font-size: 60px;
+            font-family: GillSans;
+            color: white;
+            // background-color: aqua;
+            padding: 15px;
+        }
+        .starting{
+            font-size: 20px;
+            font-family: GillSans;
+            color: white;
+            // background-color: aqua;
+            text-align: right;
+        }
+    }
+}
+
+.canada-tour-pics{
+    height:374px;
+    width: 981px;
+    // background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    .pic1{
+        width: 298px;
+        height: 374px;
+        background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+    }
+    .pic2{
+        width: 298px;
+        height: 374px;
+        background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+    }
+    .pic3{
+        width: 298px;
+        height: 374px;
+        background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+    }
+}
+
+.days{
+    height: 776px;
+    width: 981px;
+    // background-color: antiquewhite;
+    margin: 0 auto;
+    .day1{
+        height: 195px;
+        width:981px;
+        // background-color:azure;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        .about-title{
+            height: 63px;
+            width: 246px;
+            // background-color: aqua;
+            font-size: 60px;
+            font-family: GillSans;
+            border-bottom: 2px solid;
+            border-color: black;
+        }
+        .about-text{
+            height: 96px;
+            width: 981px;
+            // background-color: aquamarine;
+            font-size: 16px;
+            font-family: GillSans;
+            margin-top: 36px;
+        }
+    }
+    .day2{
+        height: 195px;
+        width:981px;
+        // background-color:azure;
+        margin-bottom: 50px;
+        .about-title{
+            height: 63px;
+            width: 246px;
+            // background-color: aqua;
+            font-size: 60px;
+            font-family: GillSans;
+            border-bottom: 2px solid;
+            border-color: black;
+        }
+        .about-text{
+            height: 96px;
+            width: 981px;
+            // background-color: aquamarine;
+            font-size: 16px;
+            font-family: GillSans;
+            margin-top: 36px;
+        }
+    }
+    .day3{
+        height: 195px;
+        width:981px;
+        // background-color:azure;
+        margin-bottom: 50px;
+        .about-title{
+            height: 63px;
+            width: 246px;
+            // background-color: aqua;
+            font-size: 60px;
+            font-family: GillSans;
+            border-bottom: 2px solid;
+            border-color: black;
+        }
+        .about-text{
+            height: 96px;
+            width: 981px;
+            // background-color: aquamarine;
+            font-size: 16px;
+            font-family: GillSans;
+            margin-top: 36px;
+        }
+    }
+    
+}
+
+.book-button{
+    height: 150px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    .button {
+        height:40px;
+        width: 147px;
+        padding: 5px 30px;
+        background-color: #79ADDC;
+        border-radius: 15px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .button-text{
+            font-size: 15px;
+            font-family: GillSans;
+            color: white;
+        }
+    }
+}
