@@ -522,7 +522,7 @@ nav .links a {
   border-radius: 15px;
 }
 
-.tour-hero {
+.page-tour-hero {
   height: 600px;
   width: 981px;
   margin: 0 auto;
@@ -536,7 +536,7 @@ nav .links a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.tour-hero .israel-image {
+.page-tour-hero .israel-image {
   margin-top: 80px;
   height: 413px;
   width: 981px;
@@ -546,14 +546,14 @@ nav .links a {
   background-position: center;
   background-size: cover;
 }
-.tour-hero .israel-image .callout {
+.page-tour-hero .israel-image .callout {
   height: 390px;
   font-size: 60px;
   font-family: GillSans;
   color: white;
   padding: 15px;
 }
-.tour-hero .israel-image .starting {
+.page-tour-hero .israel-image .starting {
   font-size: 20px;
   font-family: GillSans;
   color: white;
@@ -701,7 +701,7 @@ nav .links a {
   color: white;
 }
 
-.tour-hero {
+.page-tour-hero {
   height: 600px;
   width: 981px;
   margin: 0 auto;
@@ -715,7 +715,7 @@ nav .links a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.tour-hero .usa-image {
+.page-tour-hero .usa-image {
   margin-top: 80px;
   height: 413px;
   width: 981px;
@@ -725,14 +725,14 @@ nav .links a {
   background-position: center;
   background-size: cover;
 }
-.tour-hero .usa-image .callout {
+.page-tour-hero .usa-image .callout {
   height: 390px;
   font-size: 60px;
   font-family: GillSans;
   color: white;
   padding: 15px;
 }
-.tour-hero .usa-image .starting {
+.page-tour-hero .usa-image .starting {
   font-size: 20px;
   font-family: GillSans;
   color: white;
@@ -880,7 +880,7 @@ nav .links a {
   color: white;
 }
 
-.tour-hero {
+.page-tour-hero {
   height: 600px;
   width: 981px;
   margin: 0 auto;
@@ -894,7 +894,7 @@ nav .links a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.tour-hero .aus-image {
+.page-tour-hero .aus-image {
   margin-top: 80px;
   height: 413px;
   width: 981px;
@@ -904,14 +904,14 @@ nav .links a {
   background-position: center;
   background-size: cover;
 }
-.tour-hero .aus-image .callout {
+.page-tour-hero .aus-image .callout {
   height: 390px;
   font-size: 60px;
   font-family: GillSans;
   color: white;
   padding: 15px;
 }
-.tour-hero .aus-image .starting {
+.page-tour-hero .aus-image .starting {
   font-size: 20px;
   font-family: GillSans;
   color: white;
@@ -1059,7 +1059,7 @@ nav .links a {
   color: white;
 }
 
-.tour-hero {
+.page-tour-hero {
   height: 600px;
   width: 981px;
   margin: 0 auto;
@@ -1073,7 +1073,7 @@ nav .links a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.tour-hero .zealand-image {
+.page-tour-hero .zealand-image {
   margin-top: 80px;
   height: 413px;
   width: 981px;
@@ -1083,14 +1083,14 @@ nav .links a {
   background-position: center;
   background-size: cover;
 }
-.tour-hero .zealand-image .callout {
+.page-tour-hero .zealand-image .callout {
   height: 390px;
   font-size: 60px;
   font-family: GillSans;
   color: white;
   padding: 15px;
 }
-.tour-hero .zealand-image .starting {
+.page-tour-hero .zealand-image .starting {
   font-size: 20px;
   font-family: GillSans;
   color: white;
@@ -1238,7 +1238,7 @@ nav .links a {
   color: white;
 }
 
-.tour-hero {
+.page-tour-hero {
   height: 600px;
   width: 981px;
   margin: 0 auto;
@@ -1252,7 +1252,7 @@ nav .links a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.tour-hero .france-image {
+.page-tour-hero .france-image {
   margin-top: 80px;
   height: 413px;
   width: 981px;
@@ -1262,14 +1262,14 @@ nav .links a {
   background-position: center;
   background-size: cover;
 }
-.tour-hero .france-image .callout {
+.page-tour-hero .france-image .callout {
   height: 390px;
   font-size: 60px;
   font-family: GillSans;
   color: white;
   padding: 15px;
 }
-.tour-hero .france-image .starting {
+.page-tour-hero .france-image .starting {
   font-size: 20px;
   font-family: GillSans;
   color: white;
@@ -1417,7 +1417,7 @@ nav .links a {
   color: white;
 }
 
-.tour-hero {
+.page-tour-hero {
   height: 600px;
   width: 981px;
   margin: 0 auto;
@@ -1431,7 +1431,7 @@ nav .links a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.tour-hero .egypt-image {
+.page-tour-hero .egypt-image {
   margin-top: 80px;
   height: 413px;
   width: 981px;
@@ -1441,14 +1441,14 @@ nav .links a {
   background-position: center;
   background-size: cover;
 }
-.tour-hero .egypt-image .callout {
+.page-tour-hero .egypt-image .callout {
   height: 390px;
   font-size: 60px;
   font-family: GillSans;
   color: white;
   padding: 15px;
 }
-.tour-hero .egypt-image .starting {
+.page-tour-hero .egypt-image .starting {
   font-size: 20px;
   font-family: GillSans;
   color: white;
@@ -1596,7 +1596,7 @@ nav .links a {
   color: white;
 }
 
-.tour-hero {
+.page-tour-hero {
   height: 600px;
   width: 981px;
   margin: 0 auto;
@@ -1610,7 +1610,7 @@ nav .links a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.tour-hero .japan-image {
+.page-tour-hero .japan-image {
   margin-top: 80px;
   height: 413px;
   width: 981px;
@@ -1620,14 +1620,14 @@ nav .links a {
   background-position: center;
   background-size: cover;
 }
-.tour-hero .japan-image .callout {
+.page-tour-hero .japan-image .callout {
   height: 390px;
   font-size: 60px;
   font-family: GillSans;
   color: white;
   padding: 15px;
 }
-.tour-hero .japan-image .starting {
+.page-tour-hero .japan-image .starting {
   font-size: 20px;
   font-family: GillSans;
   color: white;
@@ -1775,7 +1775,7 @@ nav .links a {
   color: white;
 }
 
-.tour-hero {
+.page-tour-hero {
   height: 600px;
   width: 981px;
   margin: 0 auto;
@@ -1789,7 +1789,7 @@ nav .links a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.tour-hero .canada-image {
+.page-tour-hero .canada-image {
   margin-top: 80px;
   height: 413px;
   width: 981px;
@@ -1799,14 +1799,14 @@ nav .links a {
   background-position: center;
   background-size: cover;
 }
-.tour-hero .canada-image .callout {
+.page-tour-hero .canada-image .callout {
   height: 390px;
   font-size: 60px;
   font-family: GillSans;
   color: white;
   padding: 15px;
 }
-.tour-hero .canada-image .starting {
+.page-tour-hero .canada-image .starting {
   font-size: 20px;
   font-family: GillSans;
   color: white;
@@ -1954,7 +1954,7 @@ nav .links a {
   color: white;
 }
 
-.tour-hero {
+.page-tour-hero {
   height: 600px;
   width: 981px;
   margin: 0 auto;
@@ -1968,7 +1968,7 @@ nav .links a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.tour-hero .uae-image {
+.page-tour-hero .uae-image {
   margin-top: 80px;
   height: 413px;
   width: 981px;
@@ -1978,14 +1978,14 @@ nav .links a {
   background-position: center;
   background-size: cover;
 }
-.tour-hero .uae-image .callout {
+.page-tour-hero .uae-image .callout {
   height: 390px;
   font-size: 60px;
   font-family: GillSans;
   color: white;
   padding: 15px;
 }
-.tour-hero .uae-image .starting {
+.page-tour-hero .uae-image .starting {
   font-size: 20px;
   font-family: GillSans;
   color: white;

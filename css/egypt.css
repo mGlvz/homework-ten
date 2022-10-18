@@ -1,4 +1,4 @@
-.tour-hero {
+.page-tour-hero {
   height: 600px;
   width: 981px;
   margin: 0 auto;
@@ -12,7 +12,7 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-.tour-hero .egypt-image {
+.page-tour-hero .egypt-image {
   margin-top: 80px;
   height: 413px;
   width: 981px;
@@ -22,14 +22,14 @@
   background-position: center;
   background-size: cover;
 }
-.tour-hero .egypt-image .callout {
+.page-tour-hero .egypt-image .callout {
   height: 390px;
   font-size: 60px;
   font-family: GillSans;
   color: white;
   padding: 15px;
 }
-.tour-hero .egypt-image .starting {
+.page-tour-hero .egypt-image .starting {
   font-size: 20px;
   font-family: GillSans;
   color: white;

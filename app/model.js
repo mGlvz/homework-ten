@@ -397,7 +397,7 @@ var MODEL = (function(){
     </div>
   </section>`;
 
-    var _israelContent = `<section class="tour-hero">
+    var _israelContent = `<section class="page-tour-hero">
     <div class="israel-image">
       <div class="callout">Isreal tour package:</div>
       <div class="starting">STARTING FROM $1000</div>
@@ -466,7 +466,7 @@ var MODEL = (function(){
       <div class="button-text">BOOK NOW</div>
     </div>
   </section>`;
-    var _usaContent =`<section class="tour-hero">
+    var _usaContent =`<section class="page-tour-hero">
     <div class="usa-image">
       <div class="callout">U.S.A tour package:</div>
       <div class="starting">STARTING FROM $1500</div>
@@ -535,7 +535,7 @@ var MODEL = (function(){
       <div class="button-text">BOOK NOW</div>
     </div>
   </section>`;
-    var _ausContent =`<section class="tour-hero">
+    var _ausContent =`<section class="page-tour-hero">
     <div class="aus-image">
       <div class="callout">Australia tour package:</div>
       <div class="starting">STARTING FROM $1800</div>
@@ -604,7 +604,7 @@ var MODEL = (function(){
       <div class="button-text">BOOK NOW</div>
     </div>
   </section>`;
-    var _zealandContent =`<section class="tour-hero">
+    var _zealandContent =`<section class="page-tour-hero">
     <div class="zealand-image">
       <div class="callout">New Zealand tour package:</div>
       <div class="starting">STARTING FROM $1200</div>
@@ -673,7 +673,7 @@ var MODEL = (function(){
       <div class="button-text">BOOK NOW</div>
     </div>
   </section>`;
-    var _franceContent =`<section class="tour-hero">
+    var _franceContent =`<section class="page-tour-hero">
     <div class="france-image">
       <div class="callout">France tour package:</div>
       <div class="starting">STARTING FROM $2500</div>
@@ -742,7 +742,7 @@ var MODEL = (function(){
       <div class="button-text">BOOK NOW</div>
     </div>
   </section>`;
-    var _egyptContent =`<section class="tour-hero">
+    var _egyptContent =`<section class="page-tour-hero">
     <div class="egypt-image">
       <div class="callout">Egypt tour package:</div>
       <div class="starting">STARTING FROM $900</div>
@@ -811,7 +811,7 @@ var MODEL = (function(){
       <div class="button-text">BOOK NOW</div>
     </div>
   </section>`;
-    var _japanContent =`<section class="tour-hero">
+    var _japanContent =`<section class="page-tour-hero">
     <div class="japan-image">
       <div class="callout">Japan tour package:</div>
       <div class="starting">STARTING FROM $1300</div>
@@ -880,7 +880,7 @@ var MODEL = (function(){
       <div class="button-text">BOOK NOW</div>
     </div>
   </section>`;
-    var _canadaContent =`<section class="tour-hero">
+    var _canadaContent =`<section class="page-tour-hero">
     <div class="canada-image">
       <div class="callout">Canada tour package:</div>
       <div class="starting">STARTING FROM $2000</div>
@@ -949,7 +949,7 @@ var MODEL = (function(){
       <div class="button-text">BOOK NOW</div>
     </div>
   </section>`;
-    var _uaeContent =`<section class="tour-hero">
+    var _uaeContent =`<section class="page-tour-hero">
     <div class="uae-image">
       <div class="callout">U.A.E. tour package:</div>
       <div class="starting">STARTING FROM $3000</div>
