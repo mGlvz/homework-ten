@@ -1,0 +1,89 @@
+nav{
+    position: fixed;
+    height: 90px;
+    width: 60%;
+    // background-color: rgba(0,0,0,.5);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    border-color: white;
+        .logo{
+            width: 92px;
+            height: 42px;
+            color: white;
+            font-family: GillSans;
+            // background-color: aqua;
+            background-image: url(../images/logo/logo-white.png);
+        }
+        .links{
+            height: 42px;
+            width: 550px;
+            color:white;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            // background-color: blue;
+            .line{
+                color:#79ADDC
+            }
+            a {
+                color: white;
+                padding-right: 20px;
+                padding-left: 20px;
+                text-decoration: none;
+                font-family: GillSans;
+                font-size: 15px;
+            }
+        }
+}
+
+
+//dark NAV
+.dark{
+    position: fixed;
+    height: 90px;
+    width: 60%;
+    // background-color: rgba(0,0,0,.5);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    border-color:black;
+        .logo{
+            width: 92px;
+            height: 42px;
+            color:black;
+            font-family: GillSans;
+            // background-color: aqua;
+            background-image: url(/images/logo/logo-black.png);
+        }
+        .links{
+            height: 42px;
+            width: 550px;
+            color:black;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            // background-color: blue;
+            .line{
+                color:#79ADDC
+            }
+            a {
+                color:black;
+                padding-right: 20px;
+                padding-left: 20px;
+                text-decoration: none;
+                font-family: GillSans;
+                font-size: 15px;
+            }
+        }
+}

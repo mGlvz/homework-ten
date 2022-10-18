@@ -1,0 +1,34 @@
+footer{
+    height:100px;
+    width: 1280;
+    background-color: #79ADDC;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .logo{
+        width: 92px;
+        height: 42px;
+        color: white;
+        font-family: GillSans;
+        // background-color: aqua;
+        background-image: url(../images/logo/logo-white.png);
+    }
+    .copyright{
+        color: white;
+        font-size: 12px;
+        font-family: GillSans;
+    }
+    .social-icons{
+        height: 42px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: aqua;
+        background-image: url(../images/icons.png);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        
+    }
+}

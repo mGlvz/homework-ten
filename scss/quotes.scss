@@ -1,0 +1,57 @@
+.quotes{
+    height:500px;
+    width: 100%;
+    // background-color: antiquewhite;
+    .quotes-title{
+        height: 80px;
+        width: 350px;
+        margin-left: 60px;
+        // background-color: aqua;
+        h1{
+            font-size: 40px;
+            font-family: GillSans;
+            border-bottom: 2px solid;
+            border-color: black;
+        }
+    }
+    .aboutPerson{
+        position: relative;
+        max-width:676px;
+        height: 150px;
+        // background-color: aqua;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        margin-left: 60px;
+        .personImage{
+            width: 250px;
+            min-height: 150px;
+            background-color: bisque;
+            margin-right: 21px;
+            img{
+                min-height: 150px;
+                width: 250px;
+            }
+        }
+        .about-quote{
+            width: 385px;
+            font-family: GillSans;
+        }
+        .author{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            color:#79ADDC;
+            font-family: GillSans;
+        }
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .aboutPerson{
+        display: block;
+        .personImage{
+            margin-bottom: 20px;
+        }
+    }
+}

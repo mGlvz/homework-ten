@@ -1,0 +1,1067 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.site-container {
+  max-width: 1100px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(../css/fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: Proxima;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+a {
+  text-decoration: none;
+}
+
+.trip {
+  width: 236px;
+  height: 304px;
+  background-color: aquamarine;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.trip img {
+  width: 236px;
+  height: 304px;
+  position: relative;
+}
+.trip .overlay {
+  width: 236px;
+  height: 305px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 469px;
+}
+.trip .overlay .title-price {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 50px;
+}
+.trip .overlay .title-price .title {
+  font-size: 60px;
+  font-family: GillSans;
+  color: white;
+}
+.trip .overlay .title-price .price {
+  width: 150px;
+  font-size: 30px;
+  font-family: GillSans;
+  color: white;
+  margin: 0 auto;
+}
+.trip .overlay .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  font-size: 15px;
+  font-family: GillSans;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  width: 143px;
+  height: 40px;
+}
+
+nav {
+  position: fixed;
+  height: 90px;
+  width: 60%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid;
+  border-color: white;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  color: white;
+  font-family: GillSans;
+  background-image: url(../images/logo/logo-white.png);
+}
+nav .links {
+  height: 42px;
+  width: 550px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+nav .links .line {
+  color: #79ADDC;
+}
+nav .links a {
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: GillSans;
+  font-size: 15px;
+}
+
+.dark {
+  position: fixed;
+  height: 90px;
+  width: 60%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid;
+  border-color: black;
+}
+.dark .logo {
+  width: 92px;
+  height: 42px;
+  color: black;
+  font-family: GillSans;
+  background-image: url(/images/logo/logo-black.png);
+}
+.dark .links {
+  height: 42px;
+  width: 550px;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.dark .links .line {
+  color: #79ADDC;
+}
+.dark .links a {
+  color: black;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: GillSans;
+  font-size: 15px;
+}
+
+.home .hero {
+  width: 1280;
+  height: 500px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.home .hero .callout-container {
+  height: 275px;
+  width: 800px;
+}
+.home .hero .callout-container .callout {
+  width: 226px;
+  height: 60px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 90px;
+  color: white;
+  font-size: 60px;
+  font-family: GillSans;
+}
+.home .hero .callout-container .description {
+  width: 416px;
+  height: 46px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+  color: white;
+  font-size: 16px;
+  font-family: GillSans;
+  text-align: center;
+}
+.home .hero .callout-container .read-more {
+  width: 121px;
+  height: 30px;
+  padding: 5px 15px;
+  margin: 0 auto;
+  background-color: #79ADDC;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.home .promo-trips {
+  margin-top: -50px;
+  min-height: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 20px;
+}
+.home .booking {
+  min-height: 400px;
+  padding: 50px;
+}
+.home .booking h1 {
+  font-size: 60px;
+  font-family: proxima;
+}
+.home .booking .booking-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.home .booking .booking-wrapper .two-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 18px;
+}
+.home .booking .booking-wrapper .two-inputs .short-input input {
+  width: 290px;
+  height: 50px;
+  border: 1px solid #79ADDC;
+}
+.home .booking .booking-wrapper .long-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 18px;
+}
+.home .booking .booking-wrapper .long-input label {
+  font-size: 18px;
+  font-family: GillSans;
+}
+.home .booking .booking-wrapper .long-input input {
+  width: 80%;
+  height: 50px;
+  border: 1px solid #79ADDC;
+}
+.home .booking .booking-wrapper .three-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 18px;
+}
+.home .booking .booking-wrapper .three-inputs .small-input label {
+  font-size: 18px;
+  font-family: GillSans;
+}
+.home .booking .booking-wrapper .three-inputs .small-input input {
+  width: 103px;
+  height: 50px;
+  border: 1px solid #79ADDC;
+}
+.home .booking .booking-wrapper .message {
+  margin-bottom: 30px;
+}
+.home .booking .booking-wrapper .message input {
+  width: 100%;
+  height: 192px;
+  border: 1px solid #79ADDC;
+}
+.home .booking .booking-wrapper .booking-submit {
+  background-color: #79ADDC;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  width: 100%;
+  height: 50px;
+}
+
+.about {
+  height: 500px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.about .about-container {
+  height: 195px;
+  width: 981px;
+  margin-bottom: 100px;
+}
+.about .about-container .about-title {
+  height: 63px;
+  width: 246px;
+  font-size: 60px;
+  font-family: GillSans;
+  border-bottom: 2px solid;
+  border-color: black;
+}
+.about .about-container .about-text {
+  height: 96px;
+  width: 981px;
+  font-size: 16px;
+  font-family: GillSans;
+  margin-top: 36px;
+}
+
+.quotes {
+  height: 500px;
+  width: 100%;
+}
+.quotes .quotes-title {
+  height: 80px;
+  width: 350px;
+  margin-left: 60px;
+}
+.quotes .quotes-title h1 {
+  font-size: 40px;
+  font-family: GillSans;
+  border-bottom: 2px solid;
+  border-color: black;
+}
+.quotes .aboutPerson {
+  position: relative;
+  max-width: 676px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+  margin-left: 60px;
+}
+.quotes .aboutPerson .personImage {
+  width: 250px;
+  min-height: 150px;
+  background-color: bisque;
+  margin-right: 21px;
+}
+.quotes .aboutPerson .personImage img {
+  min-height: 150px;
+  width: 250px;
+}
+.quotes .aboutPerson .about-quote {
+  width: 385px;
+  font-family: GillSans;
+}
+.quotes .aboutPerson .author {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #79ADDC;
+  font-family: GillSans;
+}
+
+@media only screen and (max-width: 700px) {
+  .aboutPerson {
+    display: block;
+  }
+  .aboutPerson .personImage {
+    margin-bottom: 20px;
+  }
+}
+.tours-wrapper {
+  width: 818px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.tours-wrapper .tour {
+  position: relative;
+  width: 236px;
+  height: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 55px;
+}
+.tours-wrapper .tour img {
+  max-width: 100%;
+  height: 100%;
+  margin: auto;
+  display: block;
+}
+.tours-wrapper .tour .overlay {
+  width: 236px;
+  height: 304px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.tours-wrapper .tour .overlay h1 {
+  font-size: 60px;
+  font-family: GillSans;
+  color: white;
+}
+.tours-wrapper .tour .overlay .price {
+  width: 150px;
+  font-size: 30px;
+  font-family: GillSans;
+  color: white;
+  margin-bottom: 56px;
+}
+.tours-wrapper .tour .overlay .learnMore {
+  font-size: 15px;
+  font-family: GillSans;
+  color: white;
+  padding: 5px 30px;
+  background-color: #79ADDC;
+  border-radius: 15px;
+}
+
+.tour-hero {
+  height: 400px;
+  width: 981px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.tour-hero .hero-image {
+  margin-top: 80px;
+  height: 200px;
+  width: 981px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tours-header.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tours-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.tour-hero .hero-image .hero-callout {
+  font-size: 60px;
+  font-family: GillSans;
+  color: white;
+}
+
+.offers {
+  height: 1000px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.offers .offers-container {
+  height: 708px;
+  width: 881px;
+  margin-top: 20px;
+}
+.offers .offers-container .offers-title {
+  height: 40px;
+  width: 250px;
+  font-size: 30px;
+  font-family: GillSans;
+  border-bottom: 2px solid;
+}
+.offers .offers-container .offer1 {
+  height: 287px;
+  width: 555px;
+  margin-bottom: 60px;
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.offers .offers-container .offer1 .offer-image1 {
+  height: 287px;
+  width: 199px;
+  background-image: url(../images/special-offer-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.offers .offers-container .offer1 .offer-content {
+  height: 287px;
+  width: 355px;
+}
+.offers .offers-container .offer1 .offer-content .offer-title {
+  height: 40px;
+  width: 300px;
+  font-size: 30px;
+  font-family: GillSans;
+  border-bottom: 2px solid;
+  margin-left: 20px;
+}
+.offers .offers-container .offer1 .offer-content .offer-text {
+  height: 185px;
+  width: 355px;
+}
+.offers .offers-container .offer1 .offer-content .offer-text p {
+  width: 290px;
+  font-size: 16px;
+  font-family: GillSans;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.offers .offers-container .offer1 .offer-content .offer-button {
+  height: 40px;
+  width: 133px;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.offers .offers-container .offer1 .offer-content .offer-button .button-text {
+  font-size: 15px;
+  font-family: GillSans;
+  color: white;
+}
+.offers .offers-container .offer2 {
+  height: 287px;
+  width: 555px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.offers .offers-container .offer2 .offer-image2 {
+  height: 287px;
+  width: 199px;
+  background-image: url(../images/special-offer-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.offers .offers-container .offer2 .offer-content {
+  height: 287px;
+  width: 355px;
+}
+.offers .offers-container .offer2 .offer-content .offer-title {
+  height: 40px;
+  width: 310px;
+  font-size: 30px;
+  font-family: GillSans;
+  border-bottom: 2px solid;
+  margin-left: 20px;
+}
+.offers .offers-container .offer2 .offer-content .offer-text {
+  height: 185px;
+  width: 355px;
+}
+.offers .offers-container .offer2 .offer-content .offer-text p {
+  width: 290px;
+  font-size: 16px;
+  font-family: GillSans;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.offers .offers-container .offer2 .offer-content .offer-button {
+  height: 40px;
+  width: 133px;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.offers .offers-container .offer2 .offer-content .offer-button .button-text {
+  font-size: 15px;
+  font-family: GillSans;
+  color: white;
+}
+
+.blog {
+  height: 1250px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.blog .blog-container {
+  height: 950px;
+  width: 881px;
+  margin-top: 20px;
+}
+.blog .blog-container .blog-title {
+  height: 40px;
+  width: 100px;
+  font-size: 30px;
+  font-family: GillSans;
+  border-bottom: 2px solid;
+}
+.blog .blog-container .blog-post {
+  height: 395px;
+  width: 881px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.blog .blog-container .blog-post .date-container {
+  height: 373px;
+  width: 81px;
+}
+.blog .blog-container .blog-post .date-container .date-box {
+  height: 60px;
+  width: 60px;
+  background-color: #79ADDC;
+}
+.blog .blog-container .blog-post .date-container .date-box .date-day {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: GillSans;
+  font-size: 22px;
+  padding-top: 10px;
+}
+.blog .blog-container .blog-post .date-container .date-box .date-month {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-family: GillSans;
+}
+.blog .blog-container .blog-post .content-container {
+  height: 373px;
+  width: 800px;
+}
+.blog .blog-container .blog-post .content-container .post-image {
+  height: 259px;
+  width: 800px;
+  background-image: url(../images/blog.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.blog .blog-container .blog-post .content-container .post-title {
+  height: 55px;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.blog .blog-container .blog-post .content-container .post-title p {
+  font-size: 15px;
+  font-family: GillSans;
+}
+.blog .blog-container .blog-post .content-container .post-content {
+  height: 70px;
+  width: 800px;
+}
+.blog .blog-container .blog-post .content-container .post-content p {
+  width: 380px;
+  font-size: 13px;
+  font-family: GillSans;
+  color: #79ADDC;
+}
+.blog .blog-container .blog-post2 {
+  height: 395px;
+  width: 881px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+.blog .blog-container .blog-post2 .date-container {
+  height: 373px;
+  width: 81px;
+}
+.blog .blog-container .blog-post2 .date-container .date-box {
+  height: 60px;
+  width: 60px;
+  background-color: #79ADDC;
+}
+.blog .blog-container .blog-post2 .date-container .date-box .date-day {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: GillSans;
+  font-size: 22px;
+  padding-top: 10px;
+}
+.blog .blog-container .blog-post2 .date-container .date-box .date-month {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-family: GillSans;
+}
+.blog .blog-container .blog-post2 .content-container {
+  height: 373px;
+  width: 800px;
+}
+.blog .blog-container .blog-post2 .content-container .post-image {
+  height: 259px;
+  width: 800px;
+  background-image: url(../images/blog.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.blog .blog-container .blog-post2 .content-container .post-title {
+  height: 55px;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.blog .blog-container .blog-post2 .content-container .post-title p {
+  font-size: 15px;
+  font-family: GillSans;
+}
+.blog .blog-container .blog-post2 .content-container .post-content {
+  height: 70px;
+  width: 800px;
+}
+.blog .blog-container .blog-post2 .content-container .post-content p {
+  width: 380px;
+  font-size: 13px;
+  font-family: GillSans;
+  color: #79ADDC;
+}
+
+.contact {
+  height: 1000px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contact .contact-container {
+  height: 650px;
+  width: 881px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.contact .contact-container .contact-title {
+  height: 40px;
+  width: 200px;
+  font-size: 30px;
+  font-family: GillSans;
+  border-bottom: 2px solid;
+  margin-bottom: 30px;
+}
+.contact .contact-container .contact-box {
+  height: 650px;
+  width: 881px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact .contact-container .contact-box .map-box {
+  height: 650px;
+  width: 400px;
+}
+.contact .contact-container .contact-box .map-box .map-image {
+  height: 442px;
+  width: 400px;
+  background-image: url(../images/map.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.contact .contact-container .contact-box .map-box .address-box {
+  width: 400px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.contact .contact-container .contact-box .map-box .address-box p {
+  font-size: 18px;
+  font-family: GillSans;
+  width: 250px;
+}
+.contact .contact-container .contact-box .input-box {
+  height: 650px;
+  width: 481px;
+}
+.contact .contact-container .contact-box .input-box .input1 {
+  padding-bottom: 18px;
+}
+.contact .contact-container .contact-box .input-box .input1 label {
+  font-size: 18px;
+  font-family: GillSans;
+}
+.contact .contact-container .contact-box .input-box .input1 input {
+  width: 431px;
+  height: 60px;
+  border: 1px solid #79ADDC;
+  margin-left: 50px;
+}
+.contact .contact-container .contact-box .input-box .input2 {
+  padding-bottom: 18px;
+}
+.contact .contact-container .contact-box .input-box .input2 label {
+  font-size: 18px;
+  font-family: GillSans;
+}
+.contact .contact-container .contact-box .input-box .input2 input {
+  width: 431px;
+  height: 60px;
+  border: 1px solid #79ADDC;
+  margin-left: 50px;
+}
+.contact .contact-container .contact-box .input-box .input3 {
+  padding-bottom: 18px;
+}
+.contact .contact-container .contact-box .input-box .input3 label {
+  font-size: 18px;
+  font-family: GillSans;
+}
+.contact .contact-container .contact-box .input-box .input3 input {
+  width: 431px;
+  height: 60px;
+  border: 1px solid #79ADDC;
+  margin-left: 50px;
+}
+.contact .contact-container .contact-box .input-box .input4 {
+  padding-bottom: 18px;
+}
+.contact .contact-container .contact-box .input-box .input4 label {
+  font-size: 18px;
+  font-family: GillSans;
+}
+.contact .contact-container .contact-box .input-box .input4 input {
+  width: 431px;
+  height: 210px;
+  border: 1px solid #79ADDC;
+  margin-left: 50px;
+}
+.contact .contact-container .contact-box .input-box .message-button {
+  height: 50px;
+  width: 167px;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 50px;
+}
+.contact .contact-container .contact-box .input-box .message-button .send-message {
+  color: white;
+  font-family: GillSans;
+  font-size: 16px;
+}
+
+footer {
+  height: 100px;
+  width: 1280;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+footer .logo {
+  width: 92px;
+  height: 42px;
+  color: white;
+  font-family: GillSans;
+  background-image: url(../images/logo/logo-white.png);
+}
+footer .copyright {
+  color: white;
+  font-size: 12px;
+  font-family: GillSans;
+}
+footer .social-icons {
+  height: 42px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: aqua;
+  background-image: url(../images/icons.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

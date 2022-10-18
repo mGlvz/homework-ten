@@ -1,0 +1,130 @@
+.contact{
+    height: 1000px;
+    width: 100%;
+    // background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .contact-container{
+        height: 650px;
+        width: 881px;
+        // background-color: aliceblue;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        .contact-title{
+            height:40px;
+            width: 200px;
+            // background-color:aqua;
+            font-size: 30px;
+            font-family: GillSans;
+            border-bottom: 2px solid;
+            margin-bottom: 30px;
+        }
+        .contact-box{
+            height: 650px;
+            width: 881px;
+            // background-color: aqua;
+            display: flex;
+            align-items: center;
+            .map-box{
+                height: 650px;
+                width: 400px;
+                // background-color: brown;
+                .map-image{
+                    height: 442px;
+                    width: 400px;
+                    background-image: url(../images/map.png);
+                    background-repeat: no-repeat;
+                    background-position:center;
+                    background-size: cover;
+
+                }
+                .address-box{
+                    width: 400px;
+                    height: 200px;
+                    // background-color: aquamarine;
+                    display: flex;
+                    align-items: flex-end;
+                    p{
+                        font-size: 18px;
+                        font-family: GillSans;
+                        width: 250px;
+                    }
+                }
+            }
+            .input-box{
+                height: 650px;
+                width: 481px;
+                // background-color: blueviolet;
+                .input1{
+                    padding-bottom: 18px;
+                    label{
+                        font-size: 18px;
+                        font-family: GillSans;
+                    }
+                    input{
+                        width: 431px;
+                        height: 60px;
+                        border: 1px solid #79ADDC;
+                        margin-left: 50px;
+                    }
+                }
+                .input2{
+                    padding-bottom: 18px;
+                    label{
+                        font-size: 18px;
+                        font-family: GillSans;
+                    }
+                    input{
+                        width: 431px;
+                        height: 60px;
+                        border: 1px solid #79ADDC;
+                        margin-left: 50px;
+                    }
+                }
+                .input3{
+                    padding-bottom: 18px;
+                    label{
+                        font-size: 18px;
+                        font-family: GillSans;
+                    }
+                    input{
+                        width: 431px;
+                        height: 60px;
+                        border: 1px solid #79ADDC;
+                        margin-left: 50px;
+                    }
+                }
+                .input4{
+                    padding-bottom: 18px;
+                    label{
+                        font-size: 18px;
+                        font-family: GillSans;
+                    }
+                    input{
+                        width: 431px;
+                        height: 210px;
+                        border: 1px solid #79ADDC;
+                        margin-left: 50px;
+                    }
+                }
+                .message-button{
+                    height: 50px;
+                    width: 167px;
+                    background-color: #79ADDC;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: 50px;
+                    .send-message{
+                        color: white;
+                        font-family: GillSans;
+                        font-size: 16px;
+                    }
+                }
+
+            }
+            
+        }
+    }
+}

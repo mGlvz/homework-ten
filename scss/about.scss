@@ -1,0 +1,31 @@
+.about{
+    height: 500px;
+    width: 100%;
+    // background-color: antiquewhite;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    .about-container{
+        height: 195px;
+        width:981px;
+        // background-color:azure;
+        margin-bottom: 100px;
+        .about-title{
+            height: 63px;
+            width: 246px;
+            // background-color: aqua;
+            font-size: 60px;
+            font-family: GillSans;
+            border-bottom: 2px solid;
+            border-color: black;
+        }
+        .about-text{
+            height: 96px;
+            width: 981px;
+            // background-color: aquamarine;
+            font-size: 16px;
+            font-family: GillSans;
+            margin-top: 36px;
+        }
+    }
+}

@@ -1,0 +1,140 @@
+.offers{
+    height: 1000px;
+    width: 100%;
+    // background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .offers-container{
+        height: 708px;
+        width: 881px;
+        // background-color: aliceblue;
+        margin-top: 20px;
+        .offers-title{
+            height:40px;
+            width: 250px;
+            // background-color:aqua;
+            font-size: 30px;
+            font-family: GillSans;
+            border-bottom: 2px solid;
+        }
+        .offer1{
+            height:287px;
+            width: 555px;
+            // background-color: beige;
+            margin-bottom: 60px;
+            margin-top: 35px;
+            display: flex;
+            align-items: center;
+            .offer-image1{
+                height: 287px;
+                width: 199px;
+                background-image: url(../images/special-offer-01.jpg);
+                background-repeat: no-repeat;
+                background-position:center;
+                background-size: cover;
+            }
+            .offer-content{
+                height:287px;
+                width:355px;
+                // background-color: aquamarine;
+                .offer-title{
+                    height:40px;
+                    width: 300px;
+                    // background-color:aqua;
+                    font-size: 30px;
+                    font-family: GillSans;
+                    border-bottom: 2px solid;
+                    margin-left: 20px;
+                }
+                .offer-text{
+                    height: 185px;
+                    width: 355px;
+                    // background-color: antiquewhite;
+                    p{
+                        width: 290px;
+                        font-size: 16px;
+                        font-family: GillSans;
+                        // background-color: aliceblue;
+                        margin-top: 20px;
+                        margin-left: 20px;
+                    }
+                }
+                .offer-button{
+                    height:40px;
+                    width: 133px;
+                    background-color: #79ADDC;
+                    border-radius: 20px;
+                    margin-left: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .button-text{
+                        font-size: 15px;
+                        font-family: GillSans;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .offer2{
+            height:287px;
+            width: 555px;
+            // background-color: beige;
+            display: flex;
+            align-items: center;
+            .offer-image2{
+                height: 287px;
+                width: 199px;
+                background-image: url(../images/special-offer-02.jpg);
+                background-repeat: no-repeat;
+                background-position:center;
+                background-size: cover;
+
+            }
+            .offer-content{
+                height:287px;
+                width:355px;
+                // background-color: aquamarine;
+                .offer-title{
+                    height:40px;
+                    width: 310px;
+                    // background-color:aqua;
+                    font-size: 30px;
+                    font-family: GillSans;
+                    border-bottom: 2px solid;
+                    margin-left: 20px;
+                }
+                .offer-text{
+                    height: 185px;
+                    width: 355px;
+                    // background-color: antiquewhite;
+                    p{
+                        width: 290px;
+                        font-size: 16px;
+                        font-family: GillSans;
+                        // background-color: aliceblue;
+                        margin-top: 20px;
+                        margin-left: 20px;
+                    }
+
+                }
+                .offer-button{
+                    height:40px;
+                    width: 133px;
+                    background-color: #79ADDC;
+                    border-radius: 20px;
+                    margin-left: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .button-text{
+                        font-size: 15px;
+                        font-family: GillSans;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

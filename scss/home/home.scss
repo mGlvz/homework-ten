@@ -1,0 +1,141 @@
+.home {
+    .hero {
+    width: 1280;
+    height:500px;
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../images/hero.jpg);
+    // background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        .callout-container{
+            height: 275px;
+            width: 800px;
+            // background-color: antiquewhite;
+            .callout{
+                width: 226px;
+                height:60px;
+                margin: 0 auto;
+                padding-top: 40px;
+                padding-bottom: 90px;
+                // background-color: black;
+                color: white;
+                font-size: 60px;
+                font-family: GillSans;
+
+            }
+            .description{
+                width: 416px;
+                height:46px;
+                margin: 0 auto;
+                padding-bottom: 90px;
+                // background-color: black;
+                color: white;
+                font-size: 16px;
+                font-family: GillSans;
+                text-align: center;
+            }
+            .read-more {
+                width: 121px;
+                height: 30px;
+                padding: 5px 15px;
+                margin: 0 auto;
+                background-color: #79ADDC;
+                text-align: center;
+                color: white;
+                font-size: 15px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+        
+    }
+    .promo-trips {
+        margin-top: -50px;
+        min-height: 304px;
+        // background-color: rgba(0,0,0,.75);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 20px;
+
+    }
+    .booking {
+        min-height: 400px;
+        // background-color: brown;
+        padding: 50px;
+        h1{
+            font-size: 60px;
+            font-family: proxima;
+            
+        }
+        .booking-wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+            // background-color: coral;
+            .two-inputs{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 18px;
+                .short-input{
+                    input{
+                        width: 290px;
+                        height: 50px;
+                        border: 1px solid #79ADDC;
+                    }
+                }
+            }
+            
+            .long-input{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 18px;
+                label{
+                    font-size: 18px;
+                    font-family: GillSans;
+                }
+                input{
+                    width: 80%;
+                    height: 50px;
+                    border: 1px solid #79ADDC;
+                }
+            }
+            .three-inputs{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 18px;
+                .small-input{
+                    label{
+                        font-size: 18px;
+                        font-family: GillSans;
+                        // background-color: aquamarine;
+                    }
+                    input{
+                        width: 103px;
+                        height: 50px;
+                        border: 1px solid #79ADDC;
+                    }
+                }
+            }
+            .message{
+                margin-bottom: 30px;
+                input{
+                    width: 100%;
+                    height: 192px;
+                    border: 1px solid #79ADDC;
+                    }
+                
+            }
+            .booking-submit {
+                @include site-button ($width: 100%);
+            }
+           
+
+        }
+
+    }
+}

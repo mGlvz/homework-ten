@@ -1,0 +1,27 @@
+.tour-hero {
+    height:400px;
+    width: 981px;
+    // background-color: antiquewhite;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .hero-image{
+        margin-top: 80px;
+        height:200px;
+        width: 981px;
+        background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../images/tour/tours-header.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .hero-callout{
+            font-size: 60px;
+            font-family: GillSans;
+            color: white;
+        }
+    }
+}

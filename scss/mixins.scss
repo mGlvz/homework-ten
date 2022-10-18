@@ -1,0 +1,11 @@
+@mixin site-button($width: 133px, $height: 50px) {
+    background-color: #79ADDC;
+    border-radius: 20px;
+    color: #fff;
+    padding: 11px 21px;
+    border: none;
+    width: $width;
+    height: $height;
+    
+  }
+  
